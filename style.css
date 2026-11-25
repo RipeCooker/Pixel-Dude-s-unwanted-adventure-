@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0b0b14;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+canvas {
+  width: min(100vw, 176.47vh);
+  height: auto;
+  aspect-ratio: 960 / 544;
+  image-rendering: pixelated;
+  border: 3px solid #2a2a44;
+  box-shadow: 0 0 40px rgba(120, 90, 255, 0.35);
+}
